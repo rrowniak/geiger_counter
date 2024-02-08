@@ -14,6 +14,18 @@ The counter measures real-time cps and provides ionizing radiation dose measurem
 
 Please note that currently, only the uSv/h unit is supported, although other units like R/h, rem/h, cpm can be easily introduced. The upper limit is approximately 600 uSv/h, and can be extended to 1000 uSv/h with additional modifications to the electronic part.
 
+## Schematics
+
+### Analog part
+
+Full schematic with description can be found [here](http://mirley.firlej.org/kieszonkowy_licznik_geigera)
+
+![geiger counter](https://github.com/rrowniak/geiger_counter/blob/master/Analog_schem.gif?raw=true)
+
+### uC part 
+
+![geiger counter](https://github.com/rrowniak/geiger_counter/blob/master/IC_schem.png?raw=true)
+
 ## License
 
 This repository is licensed under GPL-3.0.
